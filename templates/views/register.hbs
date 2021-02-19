@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="/register" method="POST">
+        <input type="text" placeholder="First name" name="firstname" />
+        <input type="text" placeholder="Last name" name="lastname" />
+        <input type="email" placeholder="Email" name="email" />
+        <input type="text" minlength="10" maxlength="10" placeholder="Phone" name="phone" />
+        <input type="radio" name="gender" value="male" checked /> Male
+        <input type="radio" name="gender" value="female" checked />Female
+        <input type="text" placeholder="Age" name="age" />
+        <input type="password" placeholder="Password" name="password" />
+        <input type="password" placeholder="Confirm Password" name="confirmpassword" />
+        <input type="submit" value="Register" />
+    </form>
+</body>
+</html>
