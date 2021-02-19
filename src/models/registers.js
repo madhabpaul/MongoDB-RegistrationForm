@@ -21,17 +21,13 @@ const employeeSchema = new mongoose.Schema({
     phone: {
         type:Number,
         required:true,
-        unque:true
+        unique:true
     },
     age: {
         type:Number,
         required:true
     },
     password: {
-        type:String,
-        required:true
-    },
-    confirmpassword: {
         type:String,
         required:true
     }
